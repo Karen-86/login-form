@@ -40,45 +40,45 @@ const Login = () => {
       <div className="form-wrapper w-full  mx-auto px-[20px] md:px-[80px]">
         <form
           action=""
-          className="backdrop-blur-3xl  bg-white/60 border border-gray-200  relative mx-auto md:mr-[60px] max-w-[420px] xl:max-w-[524px]  rounded-[10px] p-[30px] xl:p-[43px] !pb-[80px] shadow-[9px_9px_0px_#5435F5] "
+          className="backdrop-blur-3xl  bg-white/60 border border-gray-200  relative mx-auto md:mr-[60px] max-w-[420px] 2xl:max-w-[524px]  rounded-[10px] p-[30px] 2xl:p-[43px] !pb-[80px] shadow-[9px_9px_0px_#5435F5] "
         >
           <div className="hidden md:block absolute top-0 right-[0]  transform-[translate(50%,-20%)] shadow-[0px_2px_10px_rgba(0,0,0,0.1)]">
             <Image src={logo} alt="Logo" className="max-w-[130px]" />
           </div>
-          <h1 className={`text-[32px] xl:text-[42px] text-center mb-[45px] xl:mb-[66px] text-transparent bg-clip-text bg-[linear-gradient(to_left,_#000000_22%,_#292929_61%,_#666666_80%)] ${kronaOne.className}`}>
+          <h1 className={`text-[32px] 2xl:text-[42px] text-center mb-[45px] 2xl:mb-[66px] text-transparent bg-clip-text bg-[linear-gradient(to_left,_#000000_22%,_#292929_61%,_#666666_80%)] ${kronaOne.className}`}>
             Welcome
           </h1>
-          <h4 className="text-[18px] xl:text-[24px] tracking-[0.18px] font-medium mb-[18px] xl:mb-[33px]">Login to your Account</h4>
+          <h4 className="text-[18px] 2xl:text-[24px] tracking-[0.18px] font-medium mb-[18px] 2xl:mb-[33px]">Login to your Account</h4>
 
-          <div className="field text-[14px] xl:text-[16px] mb-[19px] xl:mb-[25px]">
-            <label htmlFor="login-username" className="mb-[6px] xl:mb-[10px] block">
+          <div className="field text-[14px] 2xl:text-[16px] mb-[19px] 2xl:mb-[25px]">
+            <label htmlFor="login-username" className="mb-[6px] 2xl:mb-[10px] block">
               User Name
             </label>
             <input
               type="text"
               id="login-username"
               placeholder="Username@360.one"
-              className="bg-white px-3 py-[10px] block w-full border border-gray-300 rounded-[7px] text-[14px] xl:text-[16px]"
+              className="bg-white px-3 py-[10px] block w-full border border-gray-300 rounded-[7px] text-[14px] 2xl:text-[16px]"
             />
           </div>
 
-          <div className="field text-[14px] xl:text-[16px]  mb-[19px] xl:mb-[25px]">
-            <label htmlFor="login-username" className="mb-[6px] xl:mb-[10px] block">
+          <div className="field text-[14px] 2xl:text-[16px]  mb-[19px] 2xl:mb-[25px]">
+            <label htmlFor="login-username" className="mb-[6px] 2xl:mb-[10px] block">
               Password
             </label>
             <input
               type="text"
               id="login-username"
               placeholder="*********"
-              className="bg-white px-3 py-[10px] block w-full border border-gray-300 rounded-[7px] text-[14px] xl:text-[16px]"
+              className="bg-white px-3 py-[10px] block w-full border border-gray-300 rounded-[7px] text-[14px] 2xl:text-[16px]"
             />
           </div>
-          <button className="btn cursor-pointer text-[16px] xl:text-[20px]  px-3 py-2 bg-[#2C2C2C] hover:bg-[#000]  text-white rounded-[7px] text-center block w-full   mb-[14px]">
+          <button className="btn cursor-pointer text-[16px] 2xl:text-[20px]  px-3 py-2 bg-[#2C2C2C] hover:bg-[#000]  text-white rounded-[7px] text-center block w-full   mb-[14px]">
             Login
           </button>
 
           <div className="form-footer text-center">
-            <a href="#/" className="hover:underline text-center text-[14px] xl:text-[18px]">
+            <a href="#/" className="hover:underline text-center text-[14px] 2xl:text-[18px]">
               Forget Password?
             </a>
           </div>
