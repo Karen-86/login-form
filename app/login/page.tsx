@@ -28,13 +28,13 @@ const Login = () => {
         <div className="layer layer-4 bg-[#9886F7] absolute  bottom-0  h-0 pt-[9.3%] w-[7.5%] "></div>
       </div>
 
-      <div className="form-wrapper w-full   mx-auto px-[20px] md:px-[80px] ">
+      <div className="form-wrapper w-full   mx-auto px-[20px] md:px-[80px] pr-[40px]">
         <form
           action=""
-          className="backdrop-blur-3xl  bg-white/60 border border-gray-200  relative mx-auto md:mr-[60px] max-w-[340px] 4xl:max-w-[524px] 2xl:max-w-[415px]   rounded-[10px] p-[28px] 2xl:p-[37px] 4xl:p-[48.6px] !pb-[30px] 2xl:!pb-[60px] 4xl:!pb-[70px]  shadow-[9px_9px_0px_#5435F5] "
+          className="backdrop-blur-3xl  bg-white/60 border border-gray-200  relative mx-auto md:mr-[40px] max-w-[340px] 4xl:max-w-[524px] 2xl:max-w-[415px]   rounded-[10px] p-[28px] 2xl:p-[37px] 4xl:p-[48.6px] !pb-[30px] 2xl:!pb-[60px] 4xl:!pb-[70px]  shadow-[9px_9px_0px_#5435F5] "
         >
-          <div className="hidden md:block absolute top-0 right-[0]  transform-[translate(50%,-20%)] shadow-[0px_2px_10px_rgba(0,0,0,0.1)]">
-            <Image src={logo} alt="Logo" className="max-w-[80px] 2xl:max-w-[118px]" />
+          <div className=" absolute top-0 right-[0]  transform-[translate(50%,-20%)] shadow-[0px_2px_10px_rgba(0,0,0,0.1)]">
+            <Image src={logo} alt="Logo" className="max-w-[60px] md:max-w-[80px] 2xl:max-w-[118px]" />
           </div>
           <h1 className={` text-[28px] 2xl:text-[34px] 4xl:text-[42px]  text-center mb-[30px] 2xl:mb-[52px] 4xl:mb-[76px] text-transparent bg-clip-text bg-[linear-gradient(to_left,_#000000_22%,_#292929_61%,_#666666_80%)] ${kronaOne.className}`}>
             Welcome
